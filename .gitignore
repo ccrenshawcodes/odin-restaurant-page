@@ -1,1 +1,2 @@
-/repos/odin/my-projects/odin-restaurant-page/node-modules
+# ignore everything in node-modules
+node-modules/
