@@ -21,14 +21,13 @@ function loadPageBody () {
     container.appendChild(pageBody);
 }
 
-function loadBackgroundImg () {
-    const backgroundImage = new Image();
-    backgroundImage.src = icon;
-
-    container.appendChild(backgroundImage);
+function loadPage () {
+    loadTitle();
+    loadNav();
+    loadPageBody();
 }
 
-loadTitle();
-loadNav();
-loadPageBody();
-loadBackgroundImg();
+export {
+    loadPage,
+};
+
