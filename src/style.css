@@ -1,7 +1,46 @@
-article {
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fasthand', cursive;
+    letter-spacing: .2rem;
+    font-size: large;
+}
+
+h1 {
+    font-family: 'Freehand', cursive;
+    letter-spacing: .2rem;
+}
+
+#content {
     background-image: url('pasta-mushroom-food-dinner-italian-wallpaper.jpg');
+    background-size: cover;
+    background-position-x: center;
     color: white;
-    height: 70em;
-    width: 95%;
+    height: 95vh;
+    width: 100vw;
+}
+
+.page-title, .nav {
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav > button {
+    color: white;
+    border: none;
+    background-color: black;
+    opacity: 80%;
+    padding: 1em;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
