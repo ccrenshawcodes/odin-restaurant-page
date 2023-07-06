@@ -1,5 +1,6 @@
 import { loadHomePageContent, loadPage } from './page-load';
 import { showMenuPage } from './menu-page.js';
+import { showAboutPage } from './about-page.js';
 import './style.css';
 
 loadPage();
@@ -24,3 +25,8 @@ menuBtn.addEventListener('click', () => {
     showMenuPage();
 });
 
+const aboutBtn = document.querySelector('.about-button');
+aboutBtn.addEventListener('click', () => {
+    clearPage();
+    showAboutPage();
+})
