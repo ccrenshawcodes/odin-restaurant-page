@@ -27,6 +27,7 @@ function loadNav () {
     navBar.appendChild(menuBtn);
 
     const aboutBtn = document.createElement('button');
+    aboutBtn.classList.add('about-button');
     aboutBtn.textContent = 'about';
     navBar.appendChild(aboutBtn);
 
